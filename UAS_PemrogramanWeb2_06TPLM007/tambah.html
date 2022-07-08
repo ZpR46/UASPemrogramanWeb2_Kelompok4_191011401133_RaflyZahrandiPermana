@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>  
+<html>  
+<head>  
+     <title>Zakat</title>  
+     <style>
+       table {
+       font-family: arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+       }
+
+       td, th {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       }
+
+       tr:nth-child(even) {
+       background-color: #dddddd;
+       }
+       </style>
+</head>  
+<body>  
+<h2>Data Pembayaran Zakat</h2>  
+<hr>  
+<form action="tambah.php" method="post" name="form1">  
+<table width="100%" border="0">  
+<tr>  
+     <td width="120">Pilih Jenis Zakat</td>  
+     <td width="5">:</td>  
+     <td>  
+          <select name="jenis_zakat">  
+          <option value="Zakat Penghasilan"> Zakat Penghasilan </option>  
+          <option value="Zakat Maal"> Zakat Maal </option>  
+          <option value="Zakat Fitrah"> Zakat Fitrah </option>  
+        
+          </select>  
+     </td>  
+</tr>  
+<tr>  
+     <td width="120">Rp.</td>  
+     <td width="5">:</td>  
+     <td>  
+          <input type="text" name="rp" size="30">  
+     </td>  
+</tr>
+<tr>  
+     <td width="120">Nama Lengkap</td>  
+     <td width="5">:</td>  
+     <td>  
+          <input type="text" name="nama_lengkap" size="30">  
+     </td>  
+</tr>
+<tr>  
+     <td width="120">Nomor HP</td>  
+     <td width="5">:</td>  
+     <td>  
+          <input type="text" name="nomor_hp" size="30">  
+     </td>  
+</tr>  
+<tr>  
+     <td width="120">Alamat Email</td>  
+     <td width="5">:</td>  
+     <td>  
+          <input type="text" name="email" size="30">  
+     </td>  
+</tr>
+<tr>  
+     <td width="120">Transfer dari Nama Bank</td>  
+     <td width="5">:</td>  
+     <td>  
+          <input type="text" name="nama_bank" size="30">  
+     </td>  
+</tr>
+<tr>  
+     <td width="120">Nomor Rekening Bank</td>  
+     <td width="5">:</td>  
+     <td>  
+          <input type="text" name="nomor_rekening" size="30">  
+     </td>  
+</tr>  
+<tr>  
+     <td width="120"></td>  
+     <td width="5"></td>  
+     <td>  
+          <input type="submit"  name="Simpan" value="Simpan">  
+     </td>  
+</tr>  
+<tr>
+    <td><a href="index.php"><input type="submit" value="Home"></a>
+        <br/><br/></td>
+</tr>
+</table>  
+</form>  
+<hr> 
